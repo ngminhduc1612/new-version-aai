@@ -1,0 +1,5 @@
+branch 'oslo' set up to track 'origin/oslo'.
+branch 'oslo' set up to track 'origin/oslo'.
+branch 'oslo' set up to track 'origin/oslo'.
+branch 'oslo' set up to track 'origin/oslo'.
+branch 'oslo' set up to track 'origin/oslo'.
