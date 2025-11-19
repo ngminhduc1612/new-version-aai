@@ -28,7 +28,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-aai-common 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-aai-common ..................................... SUCCESS [  0.944 s]
+[INFO] aai-aai-common ..................................... SUCCESS [  2.229 s]
 [INFO] aai-parent ......................................... SKIPPED
 [INFO] aai-els-onap-logging ............................... SKIPPED
 [INFO] aai-rest ........................................... SKIPPED
@@ -42,8 +42,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.934 s
-[INFO] Finished at: 2025-11-18T09:19:16Z
+[INFO] Total time:  3.652 s
+[INFO] Finished at: 2025-11-18T15:11:23Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -725,22 +725,22 @@ Audit done.
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-aai-common 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-aai-common ..................................... SUCCESS [  2.667 s]
-[INFO] aai-parent ......................................... SUCCESS [  0.768 s]
-[INFO] aai-els-onap-logging ............................... SUCCESS [  7.523 s]
-[INFO] aai-rest ........................................... SUCCESS [  1.420 s]
-[INFO] aai-schema-ingest .................................. SUCCESS [  3.144 s]
-[INFO] aai-annotations .................................... SUCCESS [  0.311 s]
-[INFO] aai-core ........................................... SUCCESS [ 12.100 s]
-[INFO] aai-auth ........................................... SUCCESS [  0.299 s]
-[INFO] aai-failover ....................................... SUCCESS [  0.174 s]
-[INFO] aai-utils .......................................... SUCCESS [  0.907 s]
-[INFO] aai-schema-abstraction ............................. SUCCESS [  1.620 s]
+[INFO] aai-aai-common ..................................... SUCCESS [  4.763 s]
+[INFO] aai-parent ......................................... SUCCESS [  1.082 s]
+[INFO] aai-els-onap-logging ............................... SUCCESS [ 11.216 s]
+[INFO] aai-rest ........................................... SUCCESS [  1.674 s]
+[INFO] aai-schema-ingest .................................. SUCCESS [  3.871 s]
+[INFO] aai-annotations .................................... SUCCESS [  0.398 s]
+[INFO] aai-core ........................................... SUCCESS [ 16.184 s]
+[INFO] aai-auth ........................................... SUCCESS [  0.345 s]
+[INFO] aai-failover ....................................... SUCCESS [  0.185 s]
+[INFO] aai-utils .......................................... SUCCESS [  1.122 s]
+[INFO] aai-schema-abstraction ............................. SUCCESS [  2.124 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  31.505 s
-[INFO] Finished at: 2025-11-18T09:19:49Z
+[INFO] Total time:  43.611 s
+[INFO] Finished at: 2025-11-18T15:12:08Z
 [INFO] ------------------------------------------------------------------------
 
 >>> Building module: schema-service
@@ -767,7 +767,7 @@ Audit done.
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-schema-service 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-schema-service ................................. SUCCESS [  0.834 s]
+[INFO] aai-schema-service ................................. SUCCESS [  0.996 s]
 [INFO] aai-annotations .................................... SKIPPED
 [INFO] aai-schema-gen ..................................... SKIPPED
 [INFO] aai-schema ......................................... SKIPPED
@@ -776,8 +776,8 @@ Audit done.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.723 s
-[INFO] Finished at: 2025-11-18T09:19:53Z
+[INFO] Total time:  2.270 s
+[INFO] Finished at: 2025-11-18T15:12:13Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -931,54 +931,54 @@ Audit done.
 [INFO] /workspaces/new-version-aai/schema-service/aai-schema-gen/src/main/java/org/onap/aai/schemagen/swagger/GenerateSwagger.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
 [INFO] --- exec:3.1.0:java (autoGenerateXsd) @ aai-schema-gen ---
-[EL Warning]: moxy: 2025-11-18 09:20:04.108--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:04.912--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:05.365--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:05.846--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:06.23--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:06.593--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:06.968--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:07.393--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:07.882--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:08.38--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:08.731--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:09.167--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:09.655--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:10.064--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:10.492--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:11.027--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:11.67--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:12.131--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:12.669--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:13.399--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:14.01--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:26.01--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:26.918--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:27.43--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:27.882--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:28.346--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:28.82--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:29.211--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:29.665--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:30.113--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:30.65--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:31.085--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:31.467--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:31.995--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:32.605--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:33.198--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:33.713--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:34.265--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:34.91--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:35.348--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:35.842--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:12:36.53--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
 [WARNING] thread Thread[#34,logback-1,5,org.onap.aai.schemagen.GenerateXsd] was interrupted but is still alive after waiting at least 14999msecs
 [WARNING] thread Thread[#34,logback-1,5,org.onap.aai.schemagen.GenerateXsd] will linger despite being asked to die via interruption
 [WARNING] NOTE: 1 thread(s) did not finish despite being asked to via interruption. This is not a problem with exec:java, it is a problem with the running code. Although not serious, it should be remedied.
 [INFO] 
 [INFO] --- exec:3.1.0:java (autoGenerateYaml) @ aai-schema-gen ---
-[EL Warning]: moxy: 2025-11-18 09:20:40.768--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:41.264--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:41.702--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:42.172--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:42.41--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:42.685--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:42.963--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:43.23--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:43.501--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:43.795--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:44.08--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:44.425--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:44.858--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:45.173--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:45.576--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:45.911--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:46.591--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:47.021--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:47.362--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:47.693--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:20:48.044--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[WARNING] thread Thread[#43,logback-1,5,org.onap.aai.schemagen.GenerateXsd] was interrupted but is still alive after waiting at least 15000msecs
+[EL Warning]: moxy: 2025-11-18 15:13:03.682--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:04.186--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:04.538--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:04.838--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:05.215--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:05.649--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:05.997--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:06.27--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:06.636--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:06.923--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:07.23--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:07.552--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:07.89--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:08.581--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:09.112--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:09.462--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:09.872--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:10.232--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:10.657--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:11.144--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:13:11.692--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[WARNING] thread Thread[#43,logback-1,5,org.onap.aai.schemagen.GenerateXsd] was interrupted but is still alive after waiting at least 14998msecs
 [WARNING] thread Thread[#43,logback-1,5,org.onap.aai.schemagen.GenerateXsd] will linger despite being asked to die via interruption
 [WARNING] thread Thread[#52,logback-2,5,org.onap.aai.schemagen.GenerateXsd] will linger despite being asked to die via interruption
 [WARNING] thread Thread[#54,logback-3,5,org.onap.aai.schemagen.GenerateXsd] will linger despite being asked to die via interruption
@@ -990,27 +990,27 @@ Audit done.
 [WARNING] NOTE: 8 thread(s) did not finish despite being asked to via interruption. This is not a problem with exec:java, it is a problem with the running code. Although not serious, it should be remedied.
 [INFO] 
 [INFO] --- exec:3.1.0:java (autoGenerateHtml) @ aai-schema-gen ---
-[EL Warning]: moxy: 2025-11-18 09:27:50.914--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:51.333--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:51.666--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:51.979--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:52.263--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:52.612--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:52.866--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:53.2--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:53.553--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:54.012--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:54.291--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:54.573--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:54.908--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:55.243--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:55.617--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:56.143--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:56.462--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:56.872--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:57.244--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:57.674--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
-[EL Warning]: moxy: 2025-11-18 09:27:58.022--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:06.903--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:07.375--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:07.806--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:08.17--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:08.459--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:08.746--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:09.02--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:09.343--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:09.692--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:10.141--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:10.429--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:10.707--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:10.994--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:11.322--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:11.676--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:12.01--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:12.672--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:13.008--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:13.363--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:13.752--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
+[EL Warning]: moxy: 2025-11-18 15:20:14.08--MOXy BV: Facets generation could not be configured. EclipseLink's JavaModelInputImpl was not detected, instead JavaModelInput is of class: class org.eclipse.persistence.jaxb.javamodel.oxm.OXMJavaModelInputImpl
 Warning: Schema directory is not set so using default schema dir: aai-schema
 Warning: Schema directory is not set so using default schema dir: aai-schema
 Warning: Schema directory is not set so using default schema dir: aai-schema
@@ -1333,17 +1333,17 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-schema-service 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-schema-service ................................. SUCCESS [  1.663 s]
-[INFO] aai-annotations .................................... SUCCESS [  2.110 s]
-[INFO] aai-schema-gen ..................................... SUCCESS [08:32 min]
-[INFO] aai-schema ......................................... SUCCESS [01:30 min]
-[INFO] aai-queries ........................................ SUCCESS [  3.696 s]
-[INFO] aai-schema-service ................................. SUCCESS [ 13.480 s]
+[INFO] aai-schema-service ................................. SUCCESS [  1.870 s]
+[INFO] aai-annotations .................................... SUCCESS [  2.447 s]
+[INFO] aai-schema-gen ..................................... SUCCESS [08:31 min]
+[INFO] aai-schema ......................................... SUCCESS [01:42 min]
+[INFO] aai-queries ........................................ SUCCESS [  6.876 s]
+[INFO] aai-schema-service ................................. SUCCESS [ 18.944 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10:25 min
-[INFO] Finished at: 2025-11-18T09:30:20Z
+[INFO] Total time:  10:44 min
+[INFO] Finished at: 2025-11-18T15:22:59Z
 [INFO] ------------------------------------------------------------------------
 
 >>> Building module: resources
@@ -1366,13 +1366,13 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-resources 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-resources ...................................... SUCCESS [  1.427 s]
+[INFO] aai-resources ...................................... SUCCESS [  1.511 s]
 [INFO] aai-resources ...................................... SKIPPED
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.315 s
-[INFO] Finished at: 2025-11-18T09:30:25Z
+[INFO] Total time:  7.242 s
+[INFO] Finished at: 2025-11-18T15:23:09Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -1915,13 +1915,13 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-resources 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-resources ...................................... SUCCESS [  1.753 s]
-[INFO] aai-resources ...................................... SUCCESS [ 20.049 s]
+[INFO] aai-resources ...................................... SUCCESS [  2.097 s]
+[INFO] aai-resources ...................................... SUCCESS [ 26.605 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  22.448 s
-[INFO] Finished at: 2025-11-18T09:30:50Z
+[INFO] Total time:  29.332 s
+[INFO] Finished at: 2025-11-18T15:23:40Z
 [INFO] ------------------------------------------------------------------------
 
 >>> Building module: traversal
@@ -1944,13 +1944,13 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-traversal 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-traversal ...................................... SUCCESS [  1.295 s]
+[INFO] aai-traversal ...................................... SUCCESS [  1.408 s]
 [INFO] aai-traversal ...................................... SKIPPED
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.300 s
-[INFO] Finished at: 2025-11-18T09:30:54Z
+[INFO] Total time:  3.266 s
+[INFO] Finished at: 2025-11-18T15:23:45Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -2612,13 +2612,13 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-traversal 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-traversal ...................................... SUCCESS [  2.484 s]
-[INFO] aai-traversal ...................................... SUCCESS [ 38.174 s]
+[INFO] aai-traversal ...................................... SUCCESS [  2.556 s]
+[INFO] aai-traversal ...................................... SUCCESS [ 44.166 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  41.207 s
-[INFO] Finished at: 2025-11-18T09:31:38Z
+[INFO] Total time:  47.408 s
+[INFO] Finished at: 2025-11-18T15:24:34Z
 [INFO] ------------------------------------------------------------------------
 
 >>> Building module: graphadmin
@@ -2648,8 +2648,8 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.159 s
-[INFO] Finished at: 2025-11-18T09:31:43Z
+[INFO] Total time:  4.314 s
+[INFO] Finished at: 2025-11-18T15:24:42Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] 
@@ -2765,8 +2765,8 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  40.854 s
-[INFO] Finished at: 2025-11-18T09:32:27Z
+[INFO] Total time:  42.734 s
+[INFO] Finished at: 2025-11-18T15:25:26Z
 [INFO] ------------------------------------------------------------------------
 
 >>> Building module: logging-service
@@ -2798,15 +2798,15 @@ New Tag for docker:0.0-STAGING-latest
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-logging-service 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-logging-service ................................ SUCCESS [  1.677 s]
+[INFO] aai-logging-service ................................ SUCCESS [  5.405 s]
 [INFO] Common Logging API ................................. SKIPPED
 [INFO] EELF Logging Implementation ........................ SKIPPED
 [INFO] Common Logging Distribution ........................ SKIPPED
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.729 s
-[INFO] Finished at: 2025-11-18T09:32:31Z
+[INFO] Total time:  6.487 s
+[INFO] Finished at: 2025-11-18T15:25:35Z
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -3427,13 +3427,13 @@ Audit done.
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aai-logging-service 0.0.1-TEST-SNAPSHOT:
 [INFO] 
-[INFO] aai-logging-service ................................ SUCCESS [  4.527 s]
-[INFO] Common Logging API ................................. SUCCESS [  6.212 s]
-[INFO] EELF Logging Implementation ........................ SUCCESS [  3.704 s]
-[INFO] Common Logging Distribution ........................ SUCCESS [  0.508 s]
+[INFO] aai-logging-service ................................ SUCCESS [  3.576 s]
+[INFO] Common Logging API ................................. SUCCESS [  5.386 s]
+[INFO] EELF Logging Implementation ........................ SUCCESS [  2.699 s]
+[INFO] Common Logging Distribution ........................ SUCCESS [  0.307 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15.206 s
-[INFO] Finished at: 2025-11-18T09:32:48Z
+[INFO] Total time:  12.254 s
+[INFO] Finished at: 2025-11-18T15:25:50Z
 [INFO] ------------------------------------------------------------------------
